@@ -18,7 +18,7 @@ I build secure, automated infrastructure and I'm based in Bolivia 🇧🇴.
 
 | Area | What I've built / am building |
 |------|-------------------------------|
-| **Terraform** | Variables, modules, child modules, remote state (S3+DynamoDB). Deployed: EC2, S3, RDS, IAM, VPC |
+| **Terraform** | Variables, modules, child modules, remote state (S3 + state locking). Deployed: EC2, S3, RDS, IAM, VPC |
 | **CI/CD** | GitHub Actions (building pipelines for Terraform) |
 | **Automation** | Bash & Python scripting (basics)|
 | **Containers** | Docker (learning), Kubernetes (next) |
