@@ -16,13 +16,15 @@ Based in Cochabamba, Bolivia 🇧🇴 | UTC-4
 
 | Area | What I've built |
 |------|-----------------|
-| **Terraform** | Modules, remote state (S3 + locking), workspaces. Deployed: VPC, EC2, ALB, RDS, S3, IAM |
-| **CI/CD** | GitHub Actions: automated pipelines for `fmt`, `validate`, `plan`, and Docker builds |
-| **AWS** | EC2, S3, RDS, IAM, VPC, ALB, Route 53 — hands-on with production patterns |
+| **Terraform** | Modules, remote state (S3 + native locking), CI/CD validation. Deployed: VPC, EC2, ALB, RDS, S3, IAM, NAT Gateway |
+| **CI/CD** | GitHub Actions: automated pipelines for `fmt`, `validate`, `plan`, and Docker build + push to Docker Hub |
+| **AWS** | EC2, S3, RDS, IAM, VPC, ALB, NAT Gateway — hands-on with production security patterns |
+| **Security** | IMDSv2 enforcement, TLS-only S3 bucket policies, IAM `aws:SecureTransport` conditions, SG referencing |
 | **Python** | boto3 automation, CLI tools, drift detection, REST APIs |
 | **Containers** | Docker (multi-stage, Compose, networking). Kubernetes basics (pods, deployments, services) |
 | **Linux** | Arch Linux daily driver, Bash scripting, system administration |
-| **Networking** | TCP/IP, DNS, subnets, load balancing, security groups |
+| **Networking** | TCP/IP, DNS, subnets, load balancing, NAT, security groups |
+
 
 📌 Pinned Projects
 • [techflow-cloud-toolkit](https://github.com/Leanzont/techflow-cloud-toolkit) — End-to-end cloud infrastructure with Terraform, AWS, Docker, and Python
