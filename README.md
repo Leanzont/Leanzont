@@ -1,39 +1,59 @@
-👋 Hi, I'm Leandro — Cloud Engineer
+# Leandro Zenteno — Junior Cloud/DevOps Engineer
 
-Open to junior Cloud Engineer and DevOps roles, remotely.
-I build secure, automated infrastructure with Terraform, AWS, and Python.
-Based in Cochabamba, Bolivia 🇧🇴 | UTC-4
+**Building production-grade AWS infrastructure from Cochabamba, Bolivia 🇧🇴 | Open to remote worldwide**
 
-🎯 Currently: AWS Solutions Architect Associate (in progress) | Building techflow-cloud-toolkit
+I don't watch courses and take notes. I provision VPCs, harden IAM policies, break things in AWS Free Tier, and fix them with Terraform. Every project is containerized, documented, and pushed to GitHub.
 
-🔧 What I do
-• Deploy multi-AZ infrastructure with Terraform modules, remote state, and CI/CD
-• Automate AWS operations with Python (boto3) and Bash
-• Containerize applications with Docker and orchestrate with Kubernetes
-• Document architectural decisions, failures, and lessons learned
+---
 
-🛠 Technical Stack
+## 🚀 What I'm Building Now
 
-| Area | What I've built |
-|------|-----------------|
-| **Terraform** | Modules, remote state (S3 + native locking), CI/CD validation. Deployed: VPC, EC2, ALB, RDS, S3, IAM, NAT Gateway |
-| **CI/CD** | GitHub Actions: automated pipelines for `fmt`, `validate`, `plan`, and Docker build + push to Docker Hub |
-| **AWS** | EC2, S3, RDS, IAM, VPC, ALB, NAT Gateway — hands-on with production security patterns |
-| **Security** | IMDSv2 enforcement, TLS-only S3 bucket policies, IAM `aws:SecureTransport` conditions, SG referencing |
-| **Python** | boto3 automation, CLI tools, drift detection, REST APIs |
-| **Containers** | Docker (multi-stage, Compose, networking). Kubernetes basics (pods, deployments, services) |
-| **Linux** | Arch Linux daily driver, Bash scripting, system administration |
-| **Networking** | TCP/IP, DNS, subnets, load balancing, NAT, security groups |
+**[TechFlow Cloud Toolkit](https://github.com/Leanzont/techflow-cloud-toolkit)** — My main project. A complete AWS environment that I designed, deployed, secured, and automated from scratch.
 
+- **6 Terraform modules**: VPC (2 AZs), ALB, EC2, RDS PostgreSQL, S3, IAM
+- **Security hardening**: IMDSv2 enforcement, least-privilege IAM with `aws:SecureTransport`, S3 deny-by-default encryption policies, SG egress restricted to 443/53
+- **NAT Gateway** with Elastic IP for private subnet outbound access
+- **Containerized Flask API** with 3 endpoints (`/health`, `/data`, `/drift`) running on Docker
+- **Python drift detector** (Boto3) that audits live AWS state against declared Terraform config
+- **CI/CD pipelines**: GitHub Actions for Terraform (`fmt` → `validate` → `plan`) and Docker (build on PR, build + push on merge)
+- **Remote state** in S3 with native locking (`use_lockfile = true`)
 
-📌 Pinned Projects
-• [techflow-cloud-toolkit](https://github.com/Leanzont/techflow-cloud-toolkit) — End-to-end cloud infrastructure with Terraform, AWS, Docker, and Python
-• [terraform-aws-labs](https://github.com/Leanzont/terraform-aws-labs) — 10 progressive labs: from single EC2 to modular CI/CD pipelines
-• [Python-projects-scripts](https://github.com/Leanzont/Python-projects-scripts) — AWS automation scripts with boto3 and CLI tooling
+---
 
-📫 Reach me
-- Email: leandrozentenosoliz16@gmail.com
-- LinkedIn: [linkedin.com/in/...](https://www.linkedin.com/in/leandro-fabian-zenteno-soliz-3ba1713b7/)
-- CV: [Download PDF](https://github.com/Leanzont/techflow-cloud-toolkit/blob/main/Leandro_Zenteno_cloud_engineer.pdf)
+## 🛠️ What I've Built
 
-> "I don't claim to be an expert. I claim to build every day."
+| Project | What It Is | Stack |
+|---------|-----------|-------|
+| **[techflow-cloud-toolkit](https://github.com/Leanzont/techflow-cloud-toolkit)** | End-to-end AWS infrastructure with security hardening and drift detection | Terraform, AWS, Docker, Python/Boto3, GitHub Actions |
+| **[terraform-aws-labs](https://github.com/Leanzont/terraform-aws-labs)** | 10 progressive labs from single EC2 to modular infrastructure with CI/CD | Terraform, AWS, GitHub Actions |
+| **[python-projects-scripts](https://github.com/Leanzont/python-projects-scripts)** | AWS automation scripts and CLI tools | Python, Boto3, REST APIs, OOP |
+
+---
+
+## 📊 My Stack
+
+**Cloud & IaC:** AWS (VPC, EC2, RDS, S3, ALB, IAM, NAT Gateway, CloudWatch) · Terraform · Infrastructure as Code · Remote State Management  
+**Security:** IAM hardening · Least privilege · IMDSv2 · S3 encryption policies · Security group referencing  
+**Automation:** Python · Boto3 · Bash · GitHub Actions · CI/CD pipelines  
+**Containers:** Docker · Docker Compose · Multi-stage builds  
+**OS:** Linux (Arch Linux daily driver)
+
+---
+
+## 🎯 Currently
+
+- **AWS Solutions Architect Associate (SAA-C03)** — in progress, target December 2026
+- **Studying with:** Adrian Cantrill's SAA course + AWS Free Tier labs
+- **Learning method:** Write code alone first → explain in my own words → receive correction → refactor
+
+---
+
+## 📫 Contact
+
+- **Email:** leandrozentenosoliz16@gmail.com
+- **LinkedIn:** [linkedin.com/in/leanzont](https://linkedin.com/in/leanzont)
+- **Location:** Cochabamba, Bolivia (UTC-4) | **Open to remote worldwide**
+
+---
+
+&gt; *"I don't have a degree. I have results."*
