@@ -32,10 +32,14 @@ I don't watch courses and take notes. I provision VPCs, harden IAM policies, bre
 
 ## 📊 My Stack
 
-**Cloud & IaC:** AWS (VPC, EC2, RDS, S3, ALB, IAM, NAT Gateway, CloudWatch) · Terraform · Infrastructure as Code · Remote State Management  
+**Cloud & IaC:** AWS (VPC, EC2, RDS, S3, ALB, IAM, NAT Gateway, CloudWatch) · Terraform · Infrastructure as Code · Remote State Management 
+
 **Security:** IAM hardening · Least privilege · IMDSv2 · S3 encryption policies · Security group referencing  
+
 **Automation:** Python · Boto3 · Bash · GitHub Actions · CI/CD pipelines  
+
 **Containers:** Docker · Docker Compose · Multi-stage builds  
+
 **OS:** Linux (Arch Linux daily driver)
 
 ---
@@ -56,4 +60,4 @@ I don't watch courses and take notes. I provision VPCs, harden IAM policies, bre
 
 ---
 
-&gt; *"I don't have a degree. I have results."*
+> *"I don't have a degree. I have results."*
